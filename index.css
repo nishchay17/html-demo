@@ -35,10 +35,17 @@ button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   background-color: var(--primary);
-  border: none;
+  border: 2px solid transparent;
   box-shadow: none;
   outline: none;
-  border-radius: 5px;
+  border-radius: 7px;
+  transition: all 0.1s;
+}
+
+button:hover {
+  color: var(--primary-dark);
+  background-color: transparent;
+  border: 2px solid var(--primary-dark);
 }
 
 a {
@@ -51,6 +58,7 @@ a:hover {
 }
 
 .logo {
+  font-size: 1.6rem;
   text-decoration: underline;
   text-decoration-style: wavy;
   text-decoration-color: var(--primary);
