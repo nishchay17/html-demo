@@ -10,6 +10,7 @@
 :root {
   --primary: #6e69fea2;
   --primary-dark: #403bc5;
+  --primary-light: #dddcf8;
 }
 
 body {
@@ -105,6 +106,17 @@ a:hover {
 .card {
   width: 30%;
   text-align: center;
+  padding: 1rem 2rem;
+  padding-bottom: 0;
+  border-radius: 7px;
+  background-color: var(--primary-light);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 23px -13px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 23px -13px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 23px -13px rgba(0, 0, 0, 0.69);
 }
 
 .card h3 {
