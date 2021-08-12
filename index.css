@@ -513,6 +513,10 @@ a:hover {
     }
     .hero-heading {
       line-height: 100%;
+      margin-bottom: 1.2rem;
+    }
+    .hero-para {
+      line-height: 100%;
     }
     .card {
       margin-bottom: 1rem;
