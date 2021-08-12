@@ -4,59 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gift market">
     <title>Gifty</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
 </head>
 <body>
-    <div class="container">
-
-        <!-- 
-            nav section
-        -->
-        <nav>
-            <h1 class="logo">Gifty</h1>
-            <ul class="nav-links"> 
-                <li  class="nav-items">
-                    <a href="#">
-                        Home    
-                    </a>
-                </li>
-                <li class="nav-items">
-                    <a href="#">
-                        Category    
-                    </a>
-                </li>
-                <li class="nav-items">
-                    <a href="#">
-                        Login    
-                    </a>
-                </li>
-                
-            </ul>
-        </nav>
-        
-        <!-- 
-            hero section
-        -->
-        <section>
-            <div class="hero">
-                <div>
-                    <h2 class="hero-heading">
-                        Gift And Share Happiness
-                    </h2>
-                    <p class="hero-para">
-                        We always have something for you.
-                    </p>
-                    <button>
-                        Buy Now
-                    </button>
-                </div>
-                <img src="./img/hero-gift.svg" alt="gifts" />
+    <!-- 
+        nav section
+    -->
+    <nav class="container">
+        <h1 class="logo">Gifty</h1>
+        <ul class="nav-links"> 
+            <li  class="nav-items">
+                <a href="#">
+                    Home    
+                </a>
+            </li>
+            <li class="nav-items">
+                <a href="#">
+                    Category    
+                </a>
+            </li>
+            <li class="nav-items">
+                <a href="#">
+                    Login    
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+    
+    <!-- 
+        hero section
+    -->
+    <section class="container">
+        <div class="hero">
+            <div>
+                <h2 class="hero-heading">
+                    Gift And Share Happiness
+                </h2>
+                <p class="hero-para">
+                    We always have something for you.
+                </p>
+                <button>
+                    Buy Now
+                </button>
             </div>
-        </section>
-        
-        <section class="card-section">
+            <img src="./img/hero-gift.svg" alt="gifts" />
+        </div>
+    </section>
+    
+    <!--
+        feature section
+    -->
+    <section class="card-section">
+        <div class="container">
             <h2 class="card-section-heading">
                 Our Features
             </h2>
@@ -71,35 +74,81 @@
                     trigger="loop"
                     colors="primary:#121331,secondary:#6d69fe"
                     style="width:200px;height:200px">
-                </lord-icon>
+                    </lord-icon>
+                </div>
+                <div class="card">
+                    <h3>
+                        100+ Variety 
+                    </h3>
+                    <p>Choose from our 100+ different types of gifts, there is always something for you</p>
+                    <lord-icon
+                    src="https://cdn.lordicon.com/nkmsrxys.json"
+                    trigger="loop"
+                    colors="primary:#121331,secondary:#6d69fe"
+                    style="width:200px;height:200px">
+                    </lord-icon>
+                </div>
+                <div class="card">
+                    <h3>
+                        Fast Delivery 
+                    </h3>
+                    <p>We deliver gifts under 5 days all over India, with no extra cost</p>
+                    <lord-icon
+                    src="https://cdn.lordicon.com/kbtmbyzy.json"
+                    trigger="loop"
+                    colors="primary:#121331,secondary:#6d69fe"
+                    style="width:200px;height:200px">
+                    </lord-icon>
+                </div>
             </div>
-            <div class="card">
-                <h3>
-                    100+ Variety 
-                </h3>
-                <p>Choose from our 100+ different types of gifts, there is always something for you</p>
-                <lord-icon
-                src="https://cdn.lordicon.com/nkmsrxys.json"
-                trigger="loop"
-                colors="primary:#121331,secondary:#6d69fe"
-                style="width:200px;height:200px">
-            </lord-icon>
         </div>
-        <div class="card">
-            <h3>
-                Fast Delivery 
-            </h3>
-            <p>We deliver gifts under 5 days all over India, with no extra cost</p>
-            <lord-icon
-            src="https://cdn.lordicon.com/kbtmbyzy.json"
-            trigger="loop"
-            colors="primary:#121331,secondary:#6d69fe"
-            style="width:200px;height:200px">
-        </lord-icon>
-    </div>
-</div>
-</section>
-</div>
+    </section>
+
+    <!--
+        product section
+    -->
+    <section class="color-block">
+        <div class="container">
+            <h2 class="product-section-heading">
+                Our Top Products
+            </h2>
+            <div class="product-wrapper">
+                <div>
+                    <img src="./img/buskets.jpg" alt="buskets" title="Buskets" aria-label="Buskets"/>
+                    <p style="font-weight:600">Hand made buskets</p>
+                    <p>₹299/-</p>
+                    <button class="btn-secondry mt-2">Add to the cart</button>
+                </div>
+                <div>
+                    <img src="./img/dog.jpg" alt="Dog collar" title="Dog collar" aria-label="Dog collar"/>
+                    <p style="font-weight:600">Dog collar</p>
+                    <p>₹699/-</p>
+                    <button class="btn-secondry mt-2">Add to the cart</button>
+                </div>
+                <div>
+                    <img src="./img/thankyou.jpg" alt="Thank you card" title="Thank you card" aria-label="Thank you card"/>
+                    <p style="font-weight:600">Thank you card set of 5</p>
+                    <p>₹99/-</p>
+                    <button class="btn-secondry mt-2">Add to the cart</button>
+                </div>
+                <div>
+                    <img src="./img/elephants.jpg" alt="Elephants" title="Elephants" aria-label="Elephants"/>
+                    <p style="font-weight:600">Hand made set of elephants</p>
+                    <p>₹499/-</p>
+                    <button class="btn-secondry mt-2">Add to the cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+        form section
+    -->
+    <section>
+        <form>
+
+        </form>
+    </section>
 
 </body>
 </html>
