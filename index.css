@@ -61,8 +61,24 @@ button:hover {
   color: white;
 }
 
+input,
+textarea {
+  border-radius: 7px;
+  border: 2px solid var(--primary-dark);
+  outline: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 3rem;
+  max-height: 15rem;
+}
+
 .mt-2 {
   margin-top: 1rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
 }
 
 a {
@@ -173,6 +189,35 @@ a:hover {
   border-radius: 7px;
 }
 
+.form-section {
+  margin: 2rem 0;
+}
+
+.form-section-heading {
+  font-size: 2rem;
+  line-height: 110%;
+  margin-top: 3rem;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*contact form*/
+#contact {
+  width: 40%;
+}
+
+.form-img-wrapper {
+  text-align: center;
+}
+
+.form-img {
+  width: 50%;
+}
+
 /* mobile section */
 
 @media screen and (max-width: 480px) {
@@ -203,5 +248,17 @@ a:hover {
   .product-wrapper > * {
     width: 100%;
     margin-bottom: 1rem;
+  }
+  .form-section-heading {
+    font-size: 2rem;
+    line-height: 110%;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+  }
+  #contact {
+    width: 100%;
+  }
+  .form-img {
+    display: none;
   }
 }
